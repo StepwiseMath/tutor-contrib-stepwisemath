@@ -9,7 +9,7 @@ Installation
 
 .. code-block:: bash
 
-    pip install git+https://github.com/QueriumCorp/tutor-contrib-stepwisemath
+    pip install git+https://github.com/stepwiseMath/tutor-contrib-stepwisemath
 
 Usage
 *****

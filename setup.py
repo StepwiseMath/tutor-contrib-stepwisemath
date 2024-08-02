@@ -28,10 +28,10 @@ ABOUT = load_about()
 setup(
     name="tutor-contrib-stepwisemath",
     version=ABOUT["__version__"],
-    url="https://github.com/QueriumCorp/tutor-contrib-stepwisemath",
+    url="https://github.com/stepwiseMath/tutor-contrib-stepwisemath",
     project_urls={
-        "Code": "https://github.com/QueriumCorp/tutor-contrib-stepwisemath",
-        "Issue tracker": "https://github.com/QueriumCorp/tutor-contrib-stepwisemath/issues",
+        "Code": "https://github.com/stepwiseMath/tutor-contrib-stepwisemath",
+        "Issue tracker": "https://github.com/stepwiseMath/tutor-contrib-stepwisemath/issues",
     },
     license="AGPLv3",
     author="Lawrence McDaniel",

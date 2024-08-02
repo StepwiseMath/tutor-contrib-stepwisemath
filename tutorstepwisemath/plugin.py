@@ -239,7 +239,7 @@ for path in glob(str(importlib_resources.files("tutorstepwisemath") / "patches" 
 # -----------------------------------------------------------------------------
 FORKED_MFE_APPS: dict[str, MFE_ATTRS_TYPE] = {
     "learning": {
-        "repository": "https://github.com/QueriumCorp/frontend-app-learning.git",
+        "repository": "https://github.com/stepwiseMath/frontend-app-learning.git",
         "port": 2000,
     },
 }
