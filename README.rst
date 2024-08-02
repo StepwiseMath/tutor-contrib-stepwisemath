@@ -18,11 +18,12 @@ Usage
 
 .. code-block:: bash
 
-    tutor plugins index add https://github.com/StepwiseMath/tutor-contrib-stepwisemath
+    tutor plugins index add ./tutor-contrib-stepwisemath/tutor_indexes/
     tutor config save
     tutor plugins update
     tutor plugins list
 
+    tutor plugins install stepwisemath 
     tutor plugins enable stepwisemath
 
 License

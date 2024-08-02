@@ -1,5 +1,5 @@
 - name: stepwisemath
-  src: -e git+https://github.com/StepwiseMath/tutor-contrib-stepwisemath
+  src: -e git+https://github.com/StepwiseMath/tutor-contrib-stepwisemath#egg=tutor-contrib-stepwisemath
   url: https://github.com/StepwiseMath/tutor-contrib-stepwisemath
   author: StepwiseMath
   maintainer: lpm0073
