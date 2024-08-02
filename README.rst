@@ -8,7 +8,9 @@ Installation
 ************
 
 .. code-block:: bash
-
+    python3 -m venv venv
+    pip install --upgrade pip setuptools    
+    pip install "tutor[full]==16.1.8"
     pip install git+https://github.com/stepwiseMath/tutor-contrib-stepwisemath
 
 Usage
@@ -16,8 +18,12 @@ Usage
 
 .. code-block:: bash
 
-    tutor plugins enable stepwisemath
+    tutor plugins index add https://github.com/StepwiseMath/tutor-contrib-stepwisemath
+    tutor config save
+    tutor plugins update
+    tutor plugins list
 
+    tutor plugins enable stepwisemath
 
 License
 *******
