@@ -1,0 +1,2 @@
+recursive-include tutorstepwisemath/patches *
+recursive-include tutorstepwisemath/templates *
