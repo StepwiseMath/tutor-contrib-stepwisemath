@@ -1,7 +1,7 @@
 - name: stepwisemath
   src: -e git+https://github.com/StepwiseMath/tutor-contrib-stepwisemath#egg=tutor-contrib-stepwisemath
   url: https://github.com/StepwiseMath/tutor-contrib-stepwisemath
-  author: StepwiseMath
+  author: StepwiseMath <lpm0073@gmail.com>
   maintainer: lpm0073
   description: |
     Tutor plugin to enable StepwiseMath's fork of https://github.com/QueriumCorp/frontend-app-learning
