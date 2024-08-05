@@ -245,7 +245,7 @@ FORKED_MFE_APPS: dict[str, MFE_ATTRS_TYPE] = {
 }
 
 
-@MFE_APPS.add(priority=hooks.priorities.HIGH)
+@MFE_APPS.add(priority=hooks.priorities.LOW)
 def _add_core_mfe_apps(apps: dict[str, MFE_ATTRS_TYPE]) -> dict[str, MFE_ATTRS_TYPE]:
     apps.update(FORKED_MFE_APPS)
     return apps
